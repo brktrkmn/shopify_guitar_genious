@@ -10,17 +10,10 @@
       "settings": {
         "heading": ""
       }
-    },
-    "cta": {
-      "type": "cta",
-      "settings": {
-        "heading": ""
-      }
     }
   },
   "order": [
     "main",
-    "form",
-    "cta"
+    "form"
   ]
 }

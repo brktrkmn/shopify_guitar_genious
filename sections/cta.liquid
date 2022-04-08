@@ -3,6 +3,11 @@
     .cta1 {
         position: relative;
     }
+    .cta-img img {
+        width: 100%;
+        height: auto;
+        object-fir: cover;
+    }
     .cta-content {
         position: absolute;
         top: 50%;
@@ -16,12 +21,76 @@
 
 <section class="cta1">
     <div class="cta-img">
-        {{ 'lifestyle-1' | placeholder_svg_tag }}
+        {% if section.settings.background_image !=blank %}
+           <img src="{{ section.settings.background_image | img_url: width: 500 }}" alt="" width="500" height="200" loading="lazy">
+
+        {% else %}
+         {{ 'lifestyle-1' | placeholder_svg_tag }}
+        {% endif %}
     </div>
     
     <div class="cta-content">
-        <h2>Call to action</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, reiciendis.</p>
-        <a href="">Learn more</a>
-    </div>
+        {% if section.settings.heading !=blank %}
+            <h2> {{ section.settings.heading }}</h2>
+        {% endif %}
+
+        {{ section.settings.text_area }} 
+<!-- textarea is p tag by itself -->
+        {% if section.settings.button_link !=blank and section.settings.button_text !=blank %}
+            <a href="{{ section.settings.button_link }}" class="button">{{ section.settings.button_text }}</a>
+         {% endif %}
+        </div>
 </section>
+ 
+{% schema %}
+{
+  "name": "Call-to-action",
+  "tag": "section",
+  "class": "cta1",
+  "settings": [
+  {
+    "type": "image_picker",
+    "id": "background_image",
+    "label": "background image"
+  },
+  {
+    "type": "checkbox",
+    "id": "hello",
+    "label": "hello",
+    "default": true
+  },
+  {
+    "type": "product_list",
+    "id": "product_list",
+    "label": "Products",
+    "limit": 12
+  },
+  {
+  "type": "text",
+  "id": "heading",
+  "label": "Heading"
+},
+{
+    "type": "richtext",
+    "id": "text_area",
+    "label": "text area"
+  },
+  {
+    "type": "url",
+    "id": "button_link",
+    "label": "Button link"
+  },
+  {
+    "type": "text",
+    "id": "button_text",
+    "label": "Button text"
+    //"default": "Quick links"
+  }
+  ],
+  "presets": [
+  {
+      "name": "Call-to-action"
+  }
+  ]
+}
+{% endschema %}
