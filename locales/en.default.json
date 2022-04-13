@@ -198,8 +198,9 @@
       "title": "Search results",
       "search_for": "Search for “{{ terms }}”"
     },
-    "cart": {
-      "cart": "Cart"
+    "cart": { 
+      "cart": "Cart",
+      "gift_wrap": "Yes, we can gift-wrap a guitar! Would you like us to?"
     },
     "contact": {
       "form": {
