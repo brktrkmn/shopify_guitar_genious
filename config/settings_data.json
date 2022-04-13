@@ -1,5 +1,6 @@
 {
   "current": {
+    "colors_solid_button_labels": "#e60000",
     "colors_background_1": "#ffffff",
     "type_header_font": "open_sans_condensed_n3",
     "page_width": 1200,
@@ -11,6 +12,8 @@
     "favicon": "shopify:\/\/shop_images\/favicon.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/logo_46052943-a080-46ea-8f52-25f71b2f51e0.png",
     "checkout_logo_size": "large",
+    "checkout_body_background_image": "shopify:\/\/shop_images\/black-and-white-electric-guitar.jpg",
+    "checkout_input_background_color_mode": "white",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
