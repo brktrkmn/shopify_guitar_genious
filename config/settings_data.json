@@ -1,8 +1,11 @@
 {
   "current": {
-    "colors_solid_button_labels": "#e60000",
+    "colors_solid_button_labels": "#FFFFFF",
+    "colors_accent_1": "#121212",
+    "colors_text": "#121212",
     "colors_background_1": "#ffffff",
     "type_header_font": "open_sans_condensed_n3",
+    "heading_scale": 100,
     "page_width": 1200,
     "card_style": "standard",
     "card_color_scheme": "background-2",
