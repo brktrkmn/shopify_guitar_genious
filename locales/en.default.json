@@ -198,7 +198,10 @@
       "title": "Search results",
       "search_for": "Search for “{{ terms }}”"
     },
+date_picker
+    "cart": {
     "cart": { 
+main
       "cart": "Cart",
       "gift_wrap": "Yes, we can gift-wrap a guitar! Would you like us to?"
     },
