@@ -220,12 +220,21 @@
                 {{ form | payment_terms }}
               {%- endform -%}
             </div>
+
+            
           {%- when 'description' -%}
             {%- if product.description != blank -%}
               <div class="product__description rte">
                 {{ product.description }}
+                {%if product.metafields.my_fields.file_downloader != blank %}
+                <a href="{{ product.metafields.my_fields.file_downloader.value.url }}" download target="blank">
+                  {{ 'products.product.pdf_file' | t}}
+                </a>
+                {%- endif -%}
+                
               </div>
             {%- endif -%}
+            
           {%- when 'custom_liquid' -%}
             {{ block.settings.custom_liquid }}
           {%- when 'collapsible_tab' -%}
