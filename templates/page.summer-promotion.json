@@ -13,10 +13,24 @@
         "heading": "Product List",
         "collection": "deals"
       }
+    },
+    "16503144687b13acaa": {
+      "type": "cta",
+      "settings": {
+        "hello": true,
+        "product_list": [
+
+        ],
+        "heading": "hello",
+        "text_area": "",
+        "button_link": "",
+        "button_text": ""
+      }
     }
   },
   "order": [
     "main",
-    "product-list"
+    "product-list",
+    "16503144687b13acaa"
   ]
 }
