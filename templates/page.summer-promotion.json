@@ -1,5 +1,52 @@
 {
   "sections": {
+    "16503146031f6d5bae": {
+      "type": "image-banner",
+      "blocks": {
+        "16503146032a4b3401-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "16503146032a4b3401-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "16503146032a4b3401-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16503146032a4b3401-0",
+        "16503146032a4b3401-1",
+        "16503146032a4b3401-2"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -13,24 +60,11 @@
         "heading": "Product List",
         "collection": "deals"
       }
-    },
-    "16503144687b13acaa": {
-      "type": "cta",
-      "settings": {
-        "hello": true,
-        "product_list": [
-
-        ],
-        "heading": "hello",
-        "text_area": "",
-        "button_link": "",
-        "button_text": ""
-      }
     }
   },
   "order": [
+    "16503146031f6d5bae",
     "main",
-    "product-list",
-    "16503144687b13acaa"
+    "product-list"
   ]
 }
