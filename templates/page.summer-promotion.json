@@ -1,0 +1,22 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "product-list": {
+      "type": "b-product-list",
+      "settings": {
+        "heading": "Product List",
+        "collection": "deals"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-list"
+  ]
+}
