@@ -1269,6 +1269,7 @@ button.shopify-payment-button__button--unbranded {
   background-color: rgba(var(--color-button), var(--alpha-button-background));
 }
 
+
 .button:before,
 .shopify-challenge__button:before,
 .customer button:before,
@@ -1348,7 +1349,18 @@ button.shopify-payment-button__button--unbranded {
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
   line-height: calc(1 + 0.2 / var(--font-body-scale));
+  transition: all 0.5s ease-out;
+  
 }
+.button:hover,
+.button-label:hover,
+.shopify-challenge__button:hover,
+.customer button:hover {
+letter-spacing: 9px;
+  padding: 0 5rem;
+ 
+}
+
 
 .button--tertiary {
   font-size: 1.2rem;
