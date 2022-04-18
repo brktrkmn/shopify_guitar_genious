@@ -10,6 +10,8 @@
     "product-list": {
       "type": "b-product-list",
       "settings": {
+        "heading": "Product List",
+        "collection": "deals"
       }
     }
   },
