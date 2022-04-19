@@ -287,15 +287,7 @@ body,
   color: rgba(var(--color-foreground), 0.75);
   background-color: rgba(240, 180, 39, 0.249);
   
-}
-
-.background-secondary {
-  background-color: rgba(var(--color-foreground), 0.04);
-}
-
-.grid-auto-flow {
-  display: grid;
-  grid-auto-flow: column;
+ grid-auto-flow: column;
 }
 
 .page-margin,
@@ -304,11 +296,11 @@ body,
 }
 
 .rte-width {
-  max-width: 82rem;
-  margin: 0 auto 2rem;
-}
 
-.list-unstyled {
+  background-color: rgba(240, 180, 39, 0.249);
+
+  background-color: rgba(var(--color-background), 0.20);
+
   margin: 0;
   padding: 0;
   list-style: none;
