@@ -83,6 +83,7 @@
           "0f1a3ac9-da5e-4a13-9847-02c9bef7f4cf": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/logo.png",
               "image_width": 200,
               "alignment": "center"
             }
