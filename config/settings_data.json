@@ -1,9 +1,11 @@
 {
   "current": {
     "colors_solid_button_labels": "#FFFFFF",
-    "colors_accent_1": "#121212",
-    "colors_text": "#121212",
+    "colors_accent_1": "#d2302c",
+    "colors_text": "#000000",
+    "colors_outline_button_labels": "#d2302c",
     "colors_background_1": "#f7f7f9",
+    "colors_background_2": "#f7f7f9",
     "type_header_font": "open_sans_condensed_n3",
     "heading_scale": 100,
     "page_width": 1200,
