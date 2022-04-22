@@ -19,9 +19,10 @@
     "checkout_logo_size": "large",
     "checkout_body_background_color": "#f7f7f9",
     "checkout_input_background_color_mode": "white",
-    "checkout_sidebar_background_color": "#f1f1f1",
+    "checkout_sidebar_background_color": "#f7f7f9",
     "checkout_accent_color": "#FFFFFF",
-    "checkout_button_color": "#e22120",
+    "checkout_button_color": "#d2302c",
+    "checkout_error_color": "#d2302c",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
