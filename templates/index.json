@@ -83,11 +83,11 @@
         "16503299737e6781f6-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/beach-sunset-thailand.jpg",
+        "image": "shopify:\/\/shop_images\/ss_2c3d0fb5-eb60-4f36-b9f6-d2425b19954a.jpg",
         "image_overlay_opacity": 10,
-        "image_height": "large",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-left",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-2",
