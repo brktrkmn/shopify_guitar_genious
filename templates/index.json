@@ -85,7 +85,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/beach-sunset-thailand.jpg",
         "image_overlay_opacity": 10,
-        "image_height": "medium",
+        "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
