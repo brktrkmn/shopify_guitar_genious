@@ -46,7 +46,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/Asset_1.png",
+          "logo": "shopify:\/\/shop_images\/Asset_2.png",
           "logo_width": 250,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -84,7 +84,7 @@
           "0f1a3ac9-da5e-4a13-9847-02c9bef7f4cf": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Asset_1.png",
+              "image": "shopify:\/\/shop_images\/Asset_2.png",
               "image_width": 200,
               "alignment": "center"
             }
