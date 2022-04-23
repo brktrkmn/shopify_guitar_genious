@@ -292,11 +292,8 @@
     <input id="gift-wrapping" type="checkbox" name="atteibutes[gift-wrap" value="yes">
     <label for="gift-wrapping">{{ 'templates.cart.gift_wrap' | t }}</label>
 
-date_picker
     {% render 'delivery-date' %}
 
-
-main
     <p class="visually-hidden" id="cart-live-region-text" aria-live="polite" role="status"></p>
     <p class="visually-hidden" id="shopping-cart-line-item-status" aria-live="polite" aria-hidden="true" role="status">{{ 'accessibility.loading' | t }}</p>
   </form>
