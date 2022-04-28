@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     
-    width: 30vw;
+    width: 40vw;
    
     margin: 0 auto;
     padding-bottom: 2em;
@@ -14,7 +14,11 @@
 .subscribe-wrapper:hover {
 
     border: 2px dashed #D2302C;
-    border-radius: 8px;
+    border-radius: 12px;
+    font-size: 1.2em;
+    padding: 1em;
+    
+    
 }
 .subcribe-header {
     color: #D2302C;
@@ -39,6 +43,4 @@
     width: 250px;
     height: 3vh;
     padding: 0 1em;
-    color: black;
-
 }
