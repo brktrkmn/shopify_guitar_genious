@@ -317,6 +317,12 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16511187664f78bc52": {
+      "type": "cta-subscribe",
+      "settings": {
+        "text-box": "Get updates and special offers from Guitar Genious"
+      }
     }
   },
   "order": [
@@ -329,6 +335,7 @@
     "multicolumn",
     "16463594356c5ce99d",
     "1646362059b79cc9dd",
-    "1651095121c6480c22"
+    "1651095121c6480c22",
+    "16511187664f78bc52"
   ]
 }

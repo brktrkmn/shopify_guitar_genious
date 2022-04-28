@@ -1,0 +1,17 @@
+.cta1 {
+    position: relative;
+}
+.cta-img img {
+    width: 100vw;
+    height: 500px;
+    object-fit: contain;
+    /* background-size: cover; */
+}
+.cta-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.288);
+    padding:30px;
+}
