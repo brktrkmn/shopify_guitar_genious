@@ -1,0 +1,41 @@
+{{ 'cta-subscribe.css' | asset_url | stylesheet_tag }}
+
+<div class="subscribe-wrapper">
+    <h2 class="subcribe-header">{{ section.settings.text-box }}</h2>
+
+    {% form 'customer' %}
+  <div class="subscribe-email">
+    <label for="email"></label>
+    <input type="email" name="contact[email]" placeholder="E-mail" />
+  </div>
+
+  <div class="submit-button">
+    <input class="button button--primary" type="submit" value="Sign up" />
+  </div>
+{% endform %}
+  
+    <a href="{{ section.settings.link }}">
+      {{ section.settings.linktext }}
+    </a>
+  </div>
+  
+  {% schema %}
+  {
+    "name": "CTA-Subscribe",
+    "settings": [
+      {
+        "id": "text-box",
+        "type": "text",
+        "label": "Heading",
+        "default": "Title"
+      }
+    ]
+    ,
+    "presets": [
+      {
+        "name": "CTA-Subscribe",
+        "category": "Promotional"
+      }
+    ]
+  }
+  {% endschema %}
