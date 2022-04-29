@@ -259,7 +259,7 @@
 
         ],
         "heading": "SUMMER IS COMING!!",
-        "text_area": "<p>Don't miss our discounts! Enter summer with your new guitar with the discount code<em><strong>\"genious20\"<\/strong><\/em><\/p>",
+        "text_area": "<p>Don't miss our discounts! Enter summer with your new guitar with the discount code <em><strong>\"genious20\"<\/strong><\/em><\/p>",
         "button_link": "shopify:\/\/collections\/deals",
         "button_text": "Check out"
       }
@@ -292,7 +292,7 @@
         "164635943593fce231-2"
       ],
       "settings": {
-        "title": "Collections",
+        "title": "OUR GUITARS",
         "image_ratio": "square",
         "color_scheme": "background-1",
         "swipe_on_mobile": false,
