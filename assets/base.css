@@ -1,5 +1,6 @@
 /* Color custom properties */
 
+
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
@@ -854,6 +855,8 @@ summary::-webkit-details-marker {
 .title,
 .title-wrapper-with-link {
   margin: 3rem 0 2rem;
+    color: #D2302C;
+    letter-spacing: 5px;
 }
 
 .title-wrapper-with-link .title {
@@ -943,6 +946,7 @@ summary::-webkit-details-marker {
 
 .title-wrapper--no-top-margin {
   margin-top: 0;
+  justify-content: center;
 }
 
 .title-wrapper--no-top-margin > .title {
