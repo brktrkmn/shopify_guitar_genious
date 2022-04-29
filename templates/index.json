@@ -50,6 +50,7 @@
     },
     "16503299738cfa1dd7": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "16503299737e6781f6-0": {
           "type": "heading",
@@ -249,6 +250,20 @@
         "padding_bottom": 36
       }
     },
+    "16511861164972c668": {
+      "type": "summer-campaign",
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/ss_2c3d0fb5-eb60-4f36-b9f6-d2425b19954a.jpg",
+        "hello": true,
+        "product_list": [
+
+        ],
+        "heading": "SUMMER IS COMING!!",
+        "text_area": "<p>Don't miss our discounts! Enter summer with your new guitar with the discount code<em><strong>\"genious20\"<\/strong><\/em><\/p>",
+        "button_link": "shopify:\/\/collections\/deals",
+        "button_text": "Check out"
+      }
+    },
     "16463594356c5ce99d": {
       "type": "collection-list",
       "blocks": {
@@ -333,6 +348,7 @@
     "collage",
     "video",
     "multicolumn",
+    "16511861164972c668",
     "16463594356c5ce99d",
     "1646362059b79cc9dd",
     "1651095121c6480c22",
